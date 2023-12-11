@@ -1,8 +1,8 @@
 """
 Ampel
 """
-from tkinter import * #junge was geht hier den ab
-from threading import Timersss
+from tkinter import * #Vorlage Wisser
+from threading import Timer
 
 class RepeatTimer(Timer):
     def run(self):
