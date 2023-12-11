@@ -1,7 +1,7 @@
 """
 Ampel
 """
-from tkinter import *
+from tkinter import * #junge was geht hier den ab
 from threading import Timer
 
 class RepeatTimer(Timer):
