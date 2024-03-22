@@ -39,7 +39,7 @@ def loadXML():
         x2=node.getElementsByTagName("X2")[0].childNodes[0].nodeValue
         y2=node.getElementsByTagName("Y2")[0].childNodes[0].nodeValue
         Objekte.append(Linie(x1,y1,x2,y2))
-        # sdDADADASDADAWDAGIT COMMIT #2EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEssash
+        
     nodes = root.getElementsByTagName("Kreis")
     for node in nodes:
         x1=node.getElementsByTagName("X1")[0].childNodes[0].nodeValue
